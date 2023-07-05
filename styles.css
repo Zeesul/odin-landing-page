@@ -112,9 +112,40 @@ button.header-button {
     flex-wrap: wrap;
     justify-content: center;
     max-width: 200px;
+    margin-bottom: 100px;
 }
 
 .text {
     color: grey;
     font-size: 18px;
+}
+
+.section-three {
+    width: auto;
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 750px;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
 }
